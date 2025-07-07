@@ -67,7 +67,8 @@ body {
     font-weight: 600;
 }
 
-img {
+
+.foto-dev {
     height: 500px;
     border-radius: 20px;
 }
