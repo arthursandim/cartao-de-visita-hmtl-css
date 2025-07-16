@@ -15,12 +15,24 @@ body {
     flex-direction: column;
 }
 
-.titulo-destaque {
-    color: #22D4FD;
+.cabecalho {
+    padding: 2% 0 0 20%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD
 }
 
 .apresentacao {
-    padding: 10% 20%;
+    padding: 5% 20%;
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -37,6 +49,10 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: "Krona One", sans-serif;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
 }
 
 .apresentacao__conteudo__texto {
@@ -90,7 +106,7 @@ body {
 }
 
 .rodape {
-    
+
     /* Adicionando um estilo ao rodapé para que ele fique visível no final da página */
     padding: 24px;
     color: #000000;
