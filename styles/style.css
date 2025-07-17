@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +15,8 @@
 
 body {
     height: 100vh;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     display: flex;
     flex-direction: column;
 }
@@ -28,7 +34,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD
+    color: var(--cor-terciaria);
 }
 
 .apresentacao {
@@ -52,7 +58,7 @@ body {
 }
 
 .titulo-destaque {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto {
@@ -82,19 +88,19 @@ body {
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     font-size: 24px;
     padding: 21.5px 0;
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
-    color: #f6f6f6;
+    color: var(--cor-secundaria);
     font-weight: 600;
 }
 
 .apresentacao__links__link:hover {
     cursor: pointer;
     background-color: #272727;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
     width: 400px;
 }
 
@@ -108,8 +114,8 @@ body {
 
     /* Adicionando um estilo ao rodapé para que ele fique visível no final da página */
     padding: 24px;
-    color: #000000;
-    background-color: #22D4FD;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
@@ -119,5 +125,5 @@ body {
 
 .apresentacao__conteudo__texto a{
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
