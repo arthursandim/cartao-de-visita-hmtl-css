@@ -83,7 +83,6 @@ body {
     text-align: center;
     border-radius: 8px;
     border: 2px solid #22D4FD;
-    ;
     font-size: 24px;
     padding: 21.5px 0;
     font-family: "Montserrat", sans-serif;
@@ -93,7 +92,7 @@ body {
 }
 
 .apresentacao__links__link:hover {
-    cursor: default;
+    cursor: pointer;
     background-color: #272727;
     color: #22D4FD;
     width: 400px;
